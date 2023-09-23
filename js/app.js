@@ -239,6 +239,7 @@ $(".form-banner").submit(function (e) {
         if (response.success == true) {
             $(".form-banner").trigger("reset");
             $(".loader").css("display", "none");
+            $(".form-sub").css("display", "block");
         }
     });
 
